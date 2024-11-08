@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #665ddd;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+
+    & ul{
+        display: flex;
+        list-style: none;
+
+        & a {
+            color: #fff;
+            font-weight: bold;
+            margin-right:10px ;
+            text-decoration: none;
+        }
+    }
+}
+
+.img img {
+    width: 250px;
+}
+
+#banner {
+    height: 100vh;
+    width: 100%;
+    background: url(https://nurulfikri.ac.id/wp-content/uploads/slider/cache/b9cdbba1a0e7c5c45cc35ca06eaebf93/Banner-Web-1-scaled.webp);
+    display: flex;
+    align-items: center;
+    & .promosi {
+        width: 30%;
+        margin-left:20px;
+        color: #fff;
+        & h2 {
+            background-color: #665ddd;
+            padding: 5px;
+            margin-bottom: -16px;
+        }
+
+        & p{
+            background-color: #e0671c;
+            padding: 5px;
+        }
+    }
+}
+
+#prodi {
+    background-image: url(https://nurulfikri.ac.id/wp-content/uploads/2022/07/bbg-1-1.png?id=4574);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px ;
+    margin-bottom: 7px;
+    & .card {
+        width: 25%;
+        height: 200px;
+        border-radius: 15px;
+        background-color: #fff;
+        padding: 9px 20px;
+        margin: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        border: 1px solid blue;
+        padding: 2px;
+        border-radius: 15px;
+    }
+    .btn:hover {
+        background-color: aquamarine;
+    }
+}
+
+.secton a {
+    margin-bottom: 10px;
+}
+
